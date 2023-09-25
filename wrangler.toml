@@ -1,0 +1,19 @@
+# See https://developers.cloudflare.com/workers/wrangler/configuration/#bindings
+# to configure your Cloudflare bindings when previewing your built app.
+
+kv_namespaces = [
+  { binding = "YOUR_KV_NAMESPACE", id = "<YOUR_KV_NAMESPACE_ID>" }
+]
+
+# r2_buckets  = [
+#   { binding = "<TEST_BUCKET>", bucket_name = "<TEST_BUCKET>"}
+# ]
+
+# durable_objects.bindings = [
+#   { name = "<TEST_OBJECT>", class_name = "<TEST_CLASS>" }
+# ]
+
+# [[d1_databases]]
+# binding = "PROD_DB"
+# database_name = "test-db"
+# database_id = "c020574a-5623-407b-be0c-cd192bab9545"
