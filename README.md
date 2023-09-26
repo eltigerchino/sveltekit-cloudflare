@@ -8,7 +8,9 @@ See https://developers.cloudflare.com/workers/wrangler/commands/#pages for a ful
 
 ## Alternatives
 
-See https://github.com/sveltejs/kit/issues/4292#issuecomment-1550596497
+See https://github.com/sdarnell/cf-svelte for a more advanced example that reads `wrangler.toml` to retrieve the binding namespaces for `miniflare`.
+
+See https://github.com/sveltejs/kit/issues/4292#issuecomment-1550596497 for an example of helper methods that creates each binding.
 
 ## Shortcomings
 
